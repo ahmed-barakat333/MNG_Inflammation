@@ -1,4 +1,5 @@
 This is a repo to reproduce Figure 3 from the manuscript ["Rapid peripheral reprogramming of myelinated afferents drives human hyperalgesia"](https://www.biorxiv.org/content/10.64898/2026.02.05.703527v1.abstract).
 
-1- Figure 3A is produced using the Heatmap.R file.  2- Figure 3B is produced using the UMAP.R file. 
+1- Figure 3A is produced using the Heatmap.R file.  
+2- Figure 3B is produced using the UMAP.R file. 
 
