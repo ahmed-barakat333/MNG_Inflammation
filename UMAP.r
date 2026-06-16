@@ -1,3 +1,7 @@
+# ==============================================================================
+# Prepare data
+# ==============================================================================
+
 # Set working directory 
 setwd("")
 
@@ -83,7 +87,7 @@ neuron_labels <- c(
 )
 
 # ==============================================================================
-# Pain neurons (A-HTMR, C-HTMR)
+# Plot pain neurons (A-HTMR, C-HTMR)
 # ==============================================================================
 
 # Prepare pain data
@@ -156,7 +160,7 @@ p_pain_final <- ggplot(df_pain_umap, aes(x = UMAP1, y = UMAP2)) +
 print(p_pain_final)
 
 # ==============================================================================
-# Touch neurons (C-LTMR, Field-LTMR, SA-LTMR)
+# Plot touch neurons (C-LTMR, Field-LTMR, SA-LTMR)
 # ==============================================================================
 
 # Prepare touch data
@@ -234,7 +238,6 @@ print(p_touch_final)
 # Neuron type order
 desired_order <- c("UFN A-PEP.KIT+", "UFN KIT-", "C-HTMR", "Field-LTMR", "SA-LTMR", "C-LTMR")
 
-
 # Make a false plot
 p_master_leg <- ggplot(raw_df_imputed, aes(x=1, y=1)) +
   geom_point(aes(shape = UnitType, color = Condition, fill = Condition), size = 4) +
@@ -283,7 +286,7 @@ p_axis_final <- ggplot() +
 print(p_axis_final)
 
 # ==============================================================================
-# Combine plots
+# Combine plots and save
 # ==============================================================================
 
 # Combine clusters
