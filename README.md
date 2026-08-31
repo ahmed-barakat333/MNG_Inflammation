@@ -1,4 +1,4 @@
-R code to visualize the functional activity of peripheral nerve terminals (microneurography) following inflammation.
+R code to visualize the functional activity of peripheral nerve afferents (microneurography) following inflammation.
 
 The code files are to reproduce Figure 3 and 5 from the manuscript ["Rapid peripheral reprogramming of myelinated afferents drives human hyperalgesia"](https://www.biorxiv.org/content/10.64898/2026.02.05.703527v1.abstract).
 
